@@ -21,4 +21,3 @@ for element in range(len(toes)):
     print("The result of {0} games, {1} win/lose, {2} fans is equal to \n {3} to get a cure \n {4} to win \n and {5} "
           "to be sad".format(round(toes[element],4), round(wlrec[element],4) , round(nfans[element], 4),
                              round(pred_answer[0], 4), round(pred_answer[1], 4), round(pred_answer[2], 4)))
-
